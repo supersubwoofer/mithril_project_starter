@@ -1,0 +1,8 @@
+node_modules
+.tmp
+.cache/*
+.ionide/*
+bin/*
+dist/*
+build/*
+public/*

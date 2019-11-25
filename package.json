@@ -1,0 +1,23 @@
+{
+  "name": "rss_reader_take2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack src/index.js --output bin/app.js -d --watch & webpack-dev-server --open-page 'index.html'",
+    "build": "webpack src/index.js --output bin/app.js -p"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "mithril": "^2.0.4",
+    "webpack-dev-server": "^3.9.0",
+    "webpack-livereload-plugin": "^2.2.0"
+  }
+}
